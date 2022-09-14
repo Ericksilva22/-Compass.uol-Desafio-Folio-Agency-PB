@@ -228,3 +228,96 @@ main {
     color: #FFFFFF;
     margin-bottom: 2em;
 }
+
+/* Página service*/
+
+.servico-principal {
+    background: #EDE5F081;
+}
+
+.servico__titulos h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #5468E7;
+    margin-bottom: 1em;
+}
+
+.servico__titulos p{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-right: 2em;
+    color: #232340;
+    margin-bottom: 1em;
+    
+}
+
+.secao__cards {
+    padding-bottom: 1em;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 190px;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 32px;
+    background-color:#FFFFFF;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.cards h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#5468E7;
+}
+
+.card-par {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 190px;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 32px;
+    background-color:#5468E7
+}
+
+.card-par h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#FFFFFF;
+}
+
+.conquistas {
+    font-family: 'Roboto';
+    margin-bottom: -25em;
+}
+
+.conquistas__titulos {
+    padding: 2em 2em;
+}
+
+.conquistas__titulos h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color:#232340;
+    margin-bottom: 1em;
+}
+
+.conquistas__titulos p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #232340;
+    margin-bottom: 1em;
+    padding-right: 2em;
+}
