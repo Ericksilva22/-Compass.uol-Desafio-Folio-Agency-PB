@@ -321,3 +321,90 @@ main {
     margin-bottom: 1em;
     padding-right: 2em;
 }
+
+/* pagina work */
+
+.work__titulos h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #5468E7;
+    margin-bottom: 1em;
+}
+
+.paragrafo-principal{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-right: 2em;
+    color: #232340;
+    margin-bottom: 1em;
+}
+
+.paragrafo-descritivo {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1em;
+    color:#606060;
+    padding-right: 2em;
+    line-height: 2em;
+}
+
+.imagem__Cards {
+    height: 355px;
+    border-radius: 17px;
+    background-color:#FFBA79;
+    display: flex;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.descricao__cards {
+    padding: 2em 2em;
+    font-family: 'Roboto';
+}
+
+.descricao__cards-titulo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 1em;
+}
+
+.descricao__cards-paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 1em;
+}
+
+.imagem__cards-2{
+    background: #E8BEFF;
+}
+
+.imagem__cards-3{
+    background: #FFCE79;
+}
+
+.imagem__cards-4{
+    background: #D1ECFD;
+}
+
+.bento-contato {
+    background: #5468E7; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    border-radius: 8px;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.rodape-work {
+    font-family: 'Roboto';
+    margin-top: 4em;
+}
