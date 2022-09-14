@@ -1,5 +1,4 @@
 
-
 main {
     font-family: 'roboto';
 }
@@ -10,6 +9,7 @@ main {
     padding: 2em 2em;
 }
 
+/* Página Inicial */
 .secao {
     padding: 2em 2em;
     position: relative;
@@ -51,6 +51,8 @@ main {
     top: 15em;
     left: -10em;
 }
+
+/* footer */
 
 .rodape {
     margin-top: 24em;
@@ -154,4 +156,75 @@ main {
     color: #ADADAD;
     padding-left: 2em;
     padding-right:2em;
+}
+
+/* Página Who We Are */
+
+.sobre-principal {
+    background: #232340;
+    margin-bottom: -10em;
+} 
+
+
+.sobre__titulos h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+}
+
+.sobre__titulos p{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-right: 2em;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+    
+}
+
+.sobre__icones {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sobre__imagem-principal {
+    width: 150%;
+    margin-left: -8em;
+}
+.secao__sobre-contato {
+    background: #232340;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafo-design{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 2em;
+}
+
+.paragrafo-design2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #8B8B8B;
+    margin-bottom: 2em;
+}
+
+.secao__sobre-contato-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 160px;
+    border-radius: 8px;
+    background: #5468E7;
+    color: #FFFFFF;
+    margin-bottom: 2em;
 }
