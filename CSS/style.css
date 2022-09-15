@@ -550,6 +550,39 @@ main {
     padding-left: 2.5em;
 }
 
+/* Menu */
+
+.menu {
+    height: 100vh;
+    background-color:#232340;
+    background-image: url('../Img/Path\ menu.svg');
+    background-repeat: no-repeat;
+    background-position-x: 6em;
+}
+.conteudo-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    margin-top: 1em;
+}
+
+.menu-navegacao ul li {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.menu-navegacao ul li a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color:#595976;
+}
+
+.menu-rodape {
+    margin-left: 2em;
+}
 
 
 
