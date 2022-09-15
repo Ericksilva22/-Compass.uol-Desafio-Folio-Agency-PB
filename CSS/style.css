@@ -59,11 +59,10 @@ main {
     font-family: 'Roboto';
 }
 
-.rodape-work, .rodape-cta {
+.rodape-work, .rodape-cta, .rodape-job {
     font-family: 'Roboto';
     margin-top: 4em;
 }
-
 
 .rodape__contato {
     display: flex;
@@ -450,9 +449,107 @@ main {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #5468E7;
-    
+    color: #5468E7; 
 }
+
+/* Página jobs*/
+
+.principal-emprego {
+   background-color: #EDE5F081;
+   font-family: 'Roboto';
+   padding-bottom: 0.2em;
+   background-image: url('../Img/Path-jobs.svg');
+   background-repeat: no-repeat;
+   background-position-x: 11.2em;
+}
+
+.secao-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:2em;
+    height: 175px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+   
+}
+
+.emprego__Cards {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.emprego__Cards h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #232340;
+}
+
+.secao-conteudo p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#606060;
+}
+
+.emprego__cards-notificacao{
+    padding-left: 1em;
+}
+
+.emprego__cards-seta {
+    margin-top: 1em;
+    width: 6%;
+}
+
+.secao-conteudo-imagem {
+    display: flex;
+    margin: 1em 0 1em 2em;
+    background-color:#232340;
+    border-radius: 24px 0 0 24px;
+}
+
+.secao-conteudo-imagem .emprego__Cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.emprego__Cards-visual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+}
+
+.emprego__Cards-visual h4 {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.emprego__Cards-visual p {
+    color: #8B8B8B;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.emprego__Cards-visual .emprego__cards-seta {
+    width: 10%;
+}
+
+.emprego__cards-imagem {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+}
+
 
 
 
