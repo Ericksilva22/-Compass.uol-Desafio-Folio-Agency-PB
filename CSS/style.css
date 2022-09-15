@@ -59,6 +59,12 @@ main {
     font-family: 'Roboto';
 }
 
+.rodape-work, .rodape-cta {
+    font-family: 'Roboto';
+    margin-top: 4em;
+}
+
+
 .rodape__contato {
     display: flex;
     flex-direction: column;
@@ -404,7 +410,49 @@ main {
     color: #FFFFFF;
 }
 
-.rodape-work {
-    font-family: 'Roboto';
-    margin-top: 4em;
+
+/* Página cta */
+
+.cta__principal {
+    background-image:url('../Img/phone-cta.svg');
+    background-repeat: no-repeat;
+    height: 145vh;
 }
+
+.cta__titulos {
+    padding:2em 2em;
+}
+
+.cta__titulos h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+}
+
+.cta__titulos p{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;  
+    color: #FFFFFF;
+    margin-bottom: 1em;
+}
+
+.cta__titulos a {
+    height: 46px;
+    width: 143px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5468E7;
+    
+}
+
+
+
