@@ -1050,6 +1050,86 @@ main {
     padding-right: 2em;
 }
 
+.conquistas__titulos div {
+    display: none;
+}
+
+/* Responsividade página service  */
+
+@media screen and (min-width:1024px){ 
+    .secao__cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards { 
+        margin-left: 0;
+        margin-right: 0;
+        height: 340px;
+        flex-direction: column;
+        width: 20%;
+    }
+
+    .card-par {
+        margin-left: 0;
+        margin-right: 0;
+        height: 340px;
+        width: 20%;
+        flex-direction: column;
+    }
+
+    .servico__titulos{
+        padding-left: 10em;
+        padding-top: 4em;
+    }
+
+    .servico__titulos h3 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    .servico__titulos p{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+    }
+
+    .servico__icones{
+        padding-left: 10em;
+        padding-top: 4em;
+    }
+    
+    .conquistas {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .conquistas__titulos div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 22em;
+        margin-bottom: 2em;
+    }
+
+    .conquistas__titulos h3{
+        font-size: 18px;
+        margin-top: 1.5em;
+    }
+
+    .conquistas__titulos p {
+        padding-right: 6em;
+    }
+
+    .article-telefone {
+        padding-top: 5em;
+        padding-left: 4em;
+    }
+}
+
 /* pagina work */
 
 .work__titulos h3{
