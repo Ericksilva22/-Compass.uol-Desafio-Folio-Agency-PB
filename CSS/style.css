@@ -76,6 +76,10 @@ main {
     display: none;
 }
 
+.rodape-tablet {
+    display: none;
+}
+
 /* Responsividade para a página inicial */
 
 
@@ -194,6 +198,87 @@ main {
         height: 56px;
     }
 
+    .rodape {
+        display: none;
+    }
+
+    .rodape-tablet {
+        font-family: 'Roboto';
+        margin-top: 8em;
+        display: block;
+    }
+
+    .rodape-tablet__balao{
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape-tablet__contato-paragrafo{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        text-align: left;
+        padding-left: 2em;
+        padding-right: 2em;
+
+    }
+
+    .rodape-tablet__saudacao-paragrafo2 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        padding-left: 6em;
+        padding-right:6em;
+    }
+
+    .rodape-tablet-divisao{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape-divisao2{
+        padding-left: 2em;
+        padding-right: 6em; 
+    }
+
+    .rodape-tablet-investimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150%;
+    }
+    .rodape-tablet-investimento p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .rodape-tablet__redes-sociais p{
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+
+    .rodape-tablet__redes-sociais{
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1em;
+        margin-bottom: 2em;
+    }
+
+    .rodape-direitos-autorais {
+        width: 90%;
+    }
+
 }
 
 @media screen and (min-width:913px) and (max-width:1024px){ 
@@ -282,6 +367,88 @@ main {
         border-radius: 8px;
         width: 160px;
         height: 56px;
+    }
+
+    .rodape {
+        display: none;
+    }
+
+    .rodape-tablet {
+        font-family: 'Roboto';
+        margin-top: 8em;
+        display: block;
+    }
+
+    .rodape-tablet__balao{
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape-tablet__contato-paragrafo{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        text-align: left;
+        padding-left: 2em;
+        padding-right: 4em;
+
+    }
+
+    .rodape-tablet__saudacao-paragrafo2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        padding-left: 6em;
+        padding-right:6em;
+    }
+
+    .rodape-tablet-divisao{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape-divisao2{
+        padding-left: 2em;
+        padding-right: 6em; 
+    }
+
+    .rodape-tablet-investimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150%;
+    }
+    .rodape-tablet-investimento p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        
+    }
+
+    .rodape-tablet__redes-sociais p{
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+
+    .rodape-tablet__redes-sociais{
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1em;
+        margin-bottom: 2em;
+    }
+
+    .rodape-direitos-autorais {
+        width: 90%;
     }
 }
 
@@ -372,6 +539,91 @@ main {
         border-radius: 8px;
         width: 160px;
         height: 56px;
+    }
+
+    .rodape {
+        display: none;
+    }
+
+    .rodape-tablet {
+        font-family: 'Roboto';
+        margin-top: 23em;
+        display: block;
+    }
+
+    .rodape-tablet__balao{
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape-tablet__contato-paragrafo{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        text-align: left;
+        padding-left: 2em;
+        padding-right: 4em;
+
+    }
+
+    .rodape-tablet__saudacao-paragrafo2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        padding-left: 6em;
+        padding-right:6em;
+    }
+
+    .rodape-tablet-divisao{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape-divisao2{
+        padding-left: 2em;
+        padding-right: 6em; 
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .rodape-tablet-investimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150%;
+    }
+    .rodape-tablet-investimento p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        
+    }
+
+    .rodape-tablet__redes-sociais p{
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+
+    .rodape-tablet__redes-sociais{
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1em;
+        margin-bottom: 2em;
+    }
+
+    .rodape-direitos-autorais {
+        width: 90%;
     }
 } 
 
@@ -489,6 +741,8 @@ main {
     padding-left: 2em;
     padding-right:2em;
 }
+
+
 
 /* Página Who We Are */
 
