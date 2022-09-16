@@ -1219,6 +1219,117 @@ main {
     color: #FFFFFF;
 }
 
+.contato-trabalho-tablet {
+    display: none;
+}
+
+/* Responsividade para a página work */
+
+@media screen and (min-width:768px) and (max-width:1023px){ 
+
+    .trabalho__titulos{
+        margin-left: 8em;
+    }
+
+    .trabalho__titulos h3{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        margin-left: -1em;
+        margin-top: 2em;
+    }
+
+    .trabalho-seta-direita {
+        position: absolute;
+        left: 44em;
+        bottom: -12em;
+    }
+
+    .trabalho-contato-conteudo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .trabalho__titulos .paragrafo-principal {
+        font-size: 54px;
+    }
+
+    .trabalho__titulos .paragrafo-descritivo {
+        font-size: 16px;
+        padding-right: 12em;
+    }
+
+
+    .trabalho-contato-conteudo a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        background: #5468E7;
+        border-radius: 8px;
+        height: 45px;
+        width: 118px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-left: -16em;
+    }
+}
+
+@media screen and (min-width:1024px){ 
+
+    .trabalho__titulos{
+        margin-left: 4em;
+    }
+
+    .trabalho__titulos h3{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        margin-left: -1em;
+        margin-top: 2em;
+    }
+
+    .trabalho-seta-direita {
+        position: absolute;
+        left: 20em;
+        bottom: -12em;
+    }
+
+    .trabalho-contato-conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .trabalho__titulos .paragrafo-principal {
+        font-size: 64px;
+    }
+
+    .trabalho__titulos .paragrafo-descritivo {
+        font-size: 18px;
+        padding-right: 30em;
+    }
+
+
+    .trabalho-contato-conteudo a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        background: #5468E7;
+        border-radius: 8px;
+        height: 45px;
+        width: 118px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
 
 /* Página cta */
 
