@@ -625,6 +625,8 @@ main {
     .rodape-direitos-autorais {
         width: 90%;
     }
+
+    
 } 
 
 /* footer */
@@ -778,6 +780,19 @@ main {
 .sobre__imagem-principal {
     width: 100%;
 }
+
+.secao__sobre-imagem-responsivo {
+    display: none;
+}
+
+.logo-simbolo-sobre {
+    display: none;
+}
+
+.sobre__conteudo-principal {
+    display: none;
+}
+
 .secao__sobre-contato {
     background: #232340;
     display: flex;
@@ -816,6 +831,131 @@ main {
     color: #FFFFFF;
     margin-bottom: 2em;
 }
+
+/* Responsividade para a página about */
+
+@media screen and (min-width:1024px){ 
+    .cabecalho {
+        display: none;
+    }
+
+    .secao__sobre-imagem {
+        display: none;
+    }
+
+    .sobre-ano {
+        display: none;
+    }
+
+    .secao__sobre-imagem-responsivo {
+        display: inline;
+    }
+
+    .sobre__imagem-principal-responsivo {
+        width: 105%;
+        margin-left: 2.5em;
+        margin-top: -23em;
+    }
+
+    .sobre-principal {
+        padding: 4em;
+        margin-bottom: 10em;
+    }
+
+    .secao__sobre{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sobre__titulos p {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        padding-left: 2em;
+    }
+
+    .sobre__titulos h3 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 5em;
+    }
+
+    .logo-simbolo-sobre {
+        display: flex;
+        align-items: center;
+        height: 24px;
+    }
+
+    .sobre__titulos div {
+        display: flex;
+        align-items: center;
+    }
+
+    .secao__sobre-contato {
+        display: flex;
+        flex-direction:row;
+    }
+
+    .sobre__conteudo-principal {
+        display: flex;
+    }
+
+    .sobre__conteudo-principal ul {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+    }
+
+    .sobre__conteudo-principal ul li{
+        padding-left: 2em;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        color:#ADADAD;
+    }
+
+    .rodape-about {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1440px){
+
+    .sobre-principal {
+        padding: 8em;
+    }
+
+    .sobre__titulos p {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 56px;
+        padding-left: 4em;
+    }
+
+    .sobre__titulos h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 13em;
+    }
+
+    .sobre__imagem-principal-responsivo {
+        width: 115%;
+        margin-left: 10.3em;
+        margin-top: -28em;
+    }
+
+    .sobre__conteudo-principal ul li{
+        padding-left: 2em;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 16px;
+        color:#ADADAD;
+    }
+
+ }
 
 /* Página service*/
 
