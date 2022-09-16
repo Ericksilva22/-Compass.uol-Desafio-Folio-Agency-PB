@@ -277,9 +277,9 @@ main {
 
     .rodape-direitos-autorais {
         width: 90%;
-    }
-
+    }    
 }
+
 
 @media screen and (min-width:913px) and (max-width:1024px){ 
 
@@ -1056,6 +1056,12 @@ main {
 
 /* Responsividade página service  */
 
+@media screen and (min-width:768px){
+    .conquistas {
+        margin-bottom: 8em;
+    }
+} 
+
 @media screen and (min-width:1024px){ 
     .secao__cards {
         display: flex;
@@ -1105,6 +1111,7 @@ main {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+        margin-bottom: 2em;
     }
 
     .conquistas__titulos div {
@@ -1221,12 +1228,6 @@ main {
     height: 120vh;
 }
 
-@media screen and (min-width:372px) and (max-width:389px){ 
-    .cta__principal {
-        height: 145vh;
-    }
-}
-
 .cta__titulos {
     padding:2em 2em;
 }
@@ -1259,6 +1260,79 @@ main {
     font-size: 16px;
     font-weight: 600;
     color: #5468E7; 
+}
+
+/* Responsividade para a Página cta */
+
+@media screen and (min-width:372px) and (max-width:389px){ 
+    .cta__principal {
+        height: 145vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){ 
+    .cta__principal {
+        background-image:url('../Img/CTA\ -main.svg');
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 8em 2em -60em 2em;
+    }
+    
+
+    .rodape-cta {
+        display: none;
+    }
+
+    .cta__titulos {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1339px){ 
+    .cta__principal {
+        background-image:url('../Img/CTA\ -main.svg');
+        background-position: cover;
+        background-repeat: no-repeat;
+        margin: 8em 2em -60em 2em;
+    }
+
+    .rodape-cta {
+        display: none;
+    }
+
+    .cta__titulos {
+        display: none;
+    }
+
+    .cabecalho {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1440px){ 
+    .cta__principal {
+        background-image:url('../Img/CTA\ -main.svg');
+        background-position: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 15em 2em -50em 2em ;
+       
+    }
+
+    .rodape-cta {
+        display: none;
+    }
+
+    .cta__titulos {
+        display: none;
+    }
+
+    .cabecalho {
+        display: none;
+    }
 }
 
 /* Página jobs*/
